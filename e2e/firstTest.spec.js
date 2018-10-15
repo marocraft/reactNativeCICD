@@ -1,4 +1,4 @@
-describe("reactNativeAppCICD - TESTS -", () => {
+describe("My App -- E2E -- Test", () => {
   beforeEach(async () => {
     await device.reloadReactNative();
   });

@@ -21,7 +21,7 @@ export default class App extends Component {
     return (
       <View testID="welcome" style={styles.container}>
         <Text style={styles.welcome}>
-          App for Testing the Continuous Integration &amp; Deployment
+          App for Testing rrrthe Continuous Integration &amp; Deployment
         </Text>
         <Text style={styles.instructions}>
           To get started, Check out our README

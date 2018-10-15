@@ -10,6 +10,7 @@ exports[`renders correctly 1`] = `
       "justifyContent": "center",
     }
   }
+  testID="welcome"
 >
   <Text
     style={
@@ -20,7 +21,7 @@ exports[`renders correctly 1`] = `
       }
     }
   >
-    App for Testing the Continuous Integration & Deployment
+    App for Testing rrrthe Continuous Integration & Deployment
   </Text>
   <Text
     style={

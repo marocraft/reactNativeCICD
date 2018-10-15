@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@babel/core": "^7.1.2",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.3"
   },
@@ -20,6 +21,10 @@
   },
   "jest": {
     "preset": "react-native",
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.test.js?(x)",
+      "<rootDir>/src/**/*.test.js"
+    ],
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
     }
@@ -31,6 +36,12 @@
         "build": "xcodebuild -project ios/reactNativeAppCICD.xcodeproj -scheme reactNativeAppCICD -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
         "name": "iPhone X"
+      },
+      "android.emu.debug": {
+        "binaryPath": "android/app/build/outputs/apk/dev/debug/reactNativeAppCICD.apk",
+        "build": "react-native run-android --variant=devDebug --appId com.noahclient.dev",
+        "type": "android.emulator",
+        "name": "Nexus_5X_API_26"
       }
     },
     "test-runner": "mocha"
