@@ -20,7 +20,7 @@ this Application use :
   
 * Choose a branch for our scanner, this will help automation.
 
-![choose branch](https://user-images.githubusercontent.com/30182093/46981713-75544780-d0d1-11e8-9e88-861e16bc30d3.png "center")
+![choose branch](https://cdn.buttercms.com/wLnc7yFOQS2EGGOdraD8)
 
 * Bitrise scanner will detect the project build configuration as we see.
 
@@ -28,7 +28,7 @@ this Application use :
 
 * Register a Webhook so that Bitrise can automatically start a build every time you push code into your repository.
 
-![webhook](https://user-images.githubusercontent.com/30182093/46981987-75a11280-d0d2-11e8-9e98-6d9659018fe7.png "center")
+![webhook](https://cdn.buttercms.com/B5MaL0HaTpy57DY1vny6)
 
 * And thats all, Observe and Enjoy your first build! :boom:
 
