@@ -30,6 +30,9 @@
     }
   },
   "detox": {
+    "test-runner": "mocha",
+    "specs": "e2e",
+    "runner-config": "e2e/mocha.opts",
     "configurations": {
       "ios.sim.debug": {
         "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/reactNativeAppCICD.app",
@@ -41,9 +44,8 @@
         "binaryPath": "android/app/build/outputs/apk/dev/debug/reactNativeAppCICD.apk",
         "build": "react-native run-android --variant=devDebug --appId com.noahclient.dev",
         "type": "android.emulator",
-        "name": "Nexus_5X_API_26"
+        "name": "HTC One_M8 - 6.0"
       }
-    },
-    "test-runner": "mocha"
+    }
   }
 }
