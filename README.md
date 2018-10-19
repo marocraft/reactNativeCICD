@@ -46,4 +46,4 @@ this Application use :
 
 # CONFIGURE THE BUILD WORKFLOW
 
-> Click here [set up my workflow]()
+> Click here [set up my workflow](https://github.com/marocraft/reactNativeCICD/wiki/CONFIGURE-THE-BUILD-WORKFLOW)
